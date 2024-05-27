@@ -10,4 +10,17 @@
 
 > main과 develop 브랜치는 중요한 메인 브랜치이므로 기능이 완성 되기 전까진 commit&merge 조심하기
 
+> 기능 완성되면 develop 브랜치로 merge해서 테스트 후 main으로 merge  
+
 > commit 할때마다 수정 사항 commit 메세지에 간단하게 적기
+
+
+***
+
+### 커밋 방법
+1. git clone '원격 저장소 주소' -> git pull 후 작업 시작
+2. git branch '브랜치 이름'
+3. git add .
+4. git commit -m "커밋 메세지"
+5. git push
+
